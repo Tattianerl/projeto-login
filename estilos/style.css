@@ -7,19 +7,18 @@
   font-family: system-ui, sans-serif;
 }
 
-body, html {
-  height: 100vh;
-  width: 100vw;
-  background-color: #1a1a1a; 
-  color: #ffffff; 
+html, body {
+  height: 100%;
+  overflow: hidden;
 }
 
 main {
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
 }
+
 
 section#login {
   display: flex;
@@ -32,6 +31,8 @@ section#login {
   max-width: 95%;
   height: 500px;
 }
+
+
 
 section#login > div#img {
   width: 50%;
