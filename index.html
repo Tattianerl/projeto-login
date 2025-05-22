@@ -1,30 +1,26 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./estilos/style.css">
-    <link rel="stylesheet" href="./estilos/media-Queries.css">
-
-    <title>Login</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Login</title>
+  <link rel="stylesheet" href="./estilos/style.css" />
+  <link rel="stylesheet" href="./estilos/media-Queries.css" />
 </head>
 <body>
-    <main>
-        <section id="login">
-            <div id="img">
-                
-            </div>
-            <div id="form">
-                <h1>Login</h1>
-                <form action="login.php" method="POST">
-                    <input type="text" name="username" placeholder="usuario" required>
-                    <input type="password" name="password" placeholder="Senha" required>
-                    <button type="submit">Entrar</button>
-                </form>
-                <p>Não tem uma conta? <a href="register.html">Registrar</a></p>
-
-            </div>
-        </section>
-    </main>
+  <main>
+    <section id="login">
+      <div id="img"></div>
+      <div id="form">
+        <h1>Login</h1>
+        <form action="login.php" method="POST">
+          <input type="email" name="email" placeholder="E-mail" required />
+          <input type="password" name="password" placeholder="Senha" required />
+          <button type="submit">Entrar</button>
+        </form>
+        <p>Não tem uma conta? <a href="register.html">Registrar</a></p>
+      </div>
+    </section>
+  </main>
 </body>
 </html>
