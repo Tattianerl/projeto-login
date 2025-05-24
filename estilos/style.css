@@ -1,3 +1,4 @@
+/* RESET E BASE */
 @charset "UTF-8";
 
 * {
@@ -10,6 +11,7 @@
 html, body {
   height: 100%;
   overflow: hidden;
+  background-color: #1a1a1a;
 }
 
 main {
@@ -19,7 +21,7 @@ main {
   align-items: center;
 }
 
-
+/* CONTAINER PRINCIPAL */
 section#login {
   display: flex;
   flex-direction: row;
@@ -32,8 +34,7 @@ section#login {
   height: 500px;
 }
 
-
-
+/* IMAGEM */
 section#login > div#img {
   width: 50%;
   background: url('../imagens/Portal-Neon.png') no-repeat center;
@@ -41,12 +42,7 @@ section#login > div#img {
   box-shadow: inset 0 0 20px #ff1178aa;
 }
 
-#img {
-  background-size: cover;
-  background-position: center;
-}
-
-
+/* FORMULÁRIO */
 section#login > div#form {
   width: 50%;
   padding: 30px;
@@ -54,50 +50,19 @@ section#login > div#form {
   flex-direction: column;
   justify-content: center;
   background-color: #2a2a2a;
+  color: #fff;
 }
 
 section#login h1 {
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   color: #ff1178;
-}
-
-section#login input,
-section#login button {
-  width: 100%;
-  height: 45px;
-  margin: 8px 0;
-  padding: 10px;
-  border-radius: 8px;
-  font-size: 1rem;
-}
-
-section#login input {
-  background-color: #1a1a1a;
-  border: 1px solid #ff1178;
-  color: #ffffff;
-}
-
-section#login input::placeholder {
-  color: #bbbbbb;
-}
-
-section#login button {
-  background-color: #ff1178;
-  color: #ffffff;
-  border: none;
-  cursor: pointer;
-  font-weight: bold;
-}
-
-section#login button:hover {
-  background-color: #e0116a;
 }
 
 section#login p {
   text-align: center;
-  margin-top: 10px;
-  font-size: 0.7rem;
+  margin: 10px 0;
+  font-size: 0.9rem;
   color: #bbbbbb;
 }
 
@@ -108,4 +73,50 @@ section#login a {
 
 section#login a:hover {
   text-decoration: underline;
+}
+
+.campo {
+  display: flex;
+  align-items: center;
+  background-color: #1a1a1a;
+  border: 1px solid #ff1178;
+  border-radius: 8px;
+  padding: 0 10px;
+  margin: 10px 0;
+}
+
+.campo i.material-icons {
+  color: #ff1178;
+  margin-right: 10px;
+}
+
+.campo input {
+  background: transparent;
+  border: none;
+  outline: none;
+  color: #fff;
+  width: 100%;
+  height: 45px;
+  font-size: 1rem;
+}
+div.campo label{
+  display: none;
+}
+section#login button {
+  width: 100%;
+  height: 45px;
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 8px;
+  font-size: 1rem;
+  background-color: #ff1178;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+section#login button:hover {
+  background-color: #e0116a;
 }
