@@ -1,6 +1,6 @@
 <!-- Imagem de Capa -->
 <p align="center">
-  <img src="./imagens/telas-maiores.png" alt="Imagem de Capa - Tela de Login Futurista" width="100%"/>
+  <img src="./imagens/image-preview.png" alt="Imagem de Capa - Tela de Login Futurista" width="100%"/>
 </p>
 
 # 💻 Projeto: Tela de Login Responsiva com Estilo Futurista
