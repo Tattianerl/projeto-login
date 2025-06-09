@@ -5,8 +5,8 @@
 
 # 💻 Projeto: Tela de Login Responsiva com Estilo Futurista
 <p align="center">
-  <a href="https://tattianerl.github.io/projeto-login/" target="_blank">
-    <img src="https://img.shields.io/badge/Ver%20Projeto-Online-blueviolet?style=for-the-badge&logo=github&logoColor=white"/>
+  <a href="https://tattianerl.github.io/projeto-login/">
+    <img src="https://img.shields.io/badge/Ver%20Projeto%20Online-blueviolet?style=for-the-badge&logo=github&logoColor=white" alt="Ver Projeto Online">
   </a>
 </p>
 
