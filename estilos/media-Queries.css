@@ -1,9 +1,18 @@
 /* ========== MOBILE - Retrato (até 767px) ========== */
-@media screen and (orientation: portrait) and (max-width: 991px) {
+@media screen and (orientation: portrait) and (max-width: 767px) {
+  html, body {
+    overflow: hidden;
+  }
+
+  main {
+    height: 100dvh;
+    padding: 0;
+  }
+
   section#login {
     flex-direction: column;
     width: 100vw;
-    height: 90dvh;
+    height: 100%;
     border-radius: 0;
     overflow: hidden;
     box-shadow: none;
@@ -26,6 +35,10 @@
 
 /* ========== MOBILE - Paisagem (até 991px) ========== */
 @media screen and (orientation: landscape) and (max-width: 991px) {
+  html, body {
+    overflow: hidden;
+  }
+
   main {
     height: 100dvh;
     padding: 0;
