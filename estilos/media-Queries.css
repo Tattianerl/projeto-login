@@ -1,6 +1,5 @@
 /* ========== MOBILE - Retrato (até 767px) ========== */
 @media screen and (orientation: portrait) and (max-width: 991px) {
-
   section#login {
     flex-direction: column;
     width: 100vw;
