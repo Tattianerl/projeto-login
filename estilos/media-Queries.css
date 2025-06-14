@@ -1,9 +1,10 @@
+@charset "UTF-8";
+
 /* ========== MOBILE - Retrato (até 767px) ========== */
-/* ========== MOBILE GERAL (até 767px) ========== */
-@media screen and (max-width: 767px) {
+@media screen and (orientation: portrait) and (max-width: 767px) {
   main {
     height: 100dvh;
-    padding: 0;
+    margin: 20px 0; 
   }
 
   section#login {
@@ -25,47 +26,41 @@
   section#login > div#form {
     width: 100%;
     height: 65%;
-    padding: 15px;
+    padding: 30px;
     overflow-y: auto;
   }
 }
 
-
-/* ========== MOBILE - Paisagem (até 991px) ========== */
-@media screen and (orientation: landscape) and (max-width: 991px) {
-  html, body {
-    overflow: hidden;
-  }
-
+/* ========== MOBILE - Paisagem (até 767px) ========== */
+@media screen and (orientation: landscape) and (max-width: 767px) {
   main {
     height: 100dvh;
-    padding: 0;
+    margin: 20px 0; 
   }
 
   section#login {
     flex-direction: column;
     width: 100vw;
-    height: 100%;
+    height: 100dvh;
     border-radius: 0;
-    overflow: hidden;
     box-shadow: none;
+    overflow: hidden;
   }
 
   section#login > div#img {
     width: 100%;
-    height: 25%;
+    height: 30%;
     background-size: cover;
     background-position: center;
   }
 
   section#login > div#form {
     width: 100%;
-    height: 75%;
-    padding: 10px;
+    height: 70%;
+    padding: 30px;
     overflow-y: auto;
   }
 }
-
 /* ========== TABLET (768px a 991px) ========== */
 @media screen and (min-width: 768px) and (max-width: 991px) {
   section#login {
